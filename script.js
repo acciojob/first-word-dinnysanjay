@@ -1,6 +1,6 @@
 function firstWord(s) {
-    // Split the input string
-    let words = s.split(" ");
+    // Trim the string and split it into words
+    let words = s.trim().split(" ");
     // Return the first word
     return words[0];
 }
